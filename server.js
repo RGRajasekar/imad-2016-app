@@ -6,6 +6,13 @@ var app = express();
 app.use(morgan('combined'));
 
 
+var articleone - {
+    title:  'Article one I RG RAj',
+    heading:  'article one'
+    date: 'sep 5, 2016'
+    content:
+        <p>
+            this is the content for my first article
 
 
 
@@ -13,8 +20,7 @@ app.use(morgan('combined'));
 
 
 
-
-
+};
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
